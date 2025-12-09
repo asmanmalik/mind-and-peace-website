@@ -1,48 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Mind and Peace Connection Center | Holistic, Evidence-Based Mental Health Care</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Mind and Peace Connection Center provides holistic, evidence-based mental health care for adults, adolescents, and families, with a focus on anxiety, depression, trauma, and adolescent support." />
+  <meta charset="utf-8" />
+  <title>Mind & Peace Connection Center — Integrative, Evidence-Based Mental Health Care</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Mind & Peace Connection Center provides integrative, evidence-based mental health care for adults, adolescents, and families. Compassionate support for anxiety, trauma, and adolescent mental health." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- Skip link for accessibility -->
   <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <!-- Top info bar -->
-  <div class="top-bar">
-    <div class="container top-bar-inner">
-      <p class="top-bar-text">In-person and secure online appointments available.</p>
-      <a href="#" class="top-bar-link">Client Portal</a>
-    </div>
-  </div>
-
-  <!-- Header / Navigation -->
-  <header class="site-header">
+  <header class="site-header" role="banner">
     <div class="container header-inner">
-      <a href="index.html" class="logo">
-        <span class="logo-mark">MP</span>
+      <a href="index.html" class="logo" aria-label="Mind and Peace Connection Center home">
+        <span class="logo-mark" aria-hidden="true">MP</span>
         <span class="logo-text">
-          <span class="logo-title">Mind and Peace Connection Center</span>
+          <span class="logo-title">Mind &amp; Peace Connection Center</span>
           <span class="logo-subtitle">Integrative Mental Health Care</span>
         </span>
       </a>
 
       <nav class="site-nav" aria-label="Main navigation">
-        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Open menu">
           <span class="nav-toggle-bar"></span>
           <span class="nav-toggle-bar"></span>
           <span class="nav-toggle-bar"></span>
-          <span class="nav-toggle-label">Menu</span>
         </button>
 
         <ul class="nav-list" id="primary-menu">
           <li><a href="index.html" class="nav-link nav-link-active">Home</a></li>
           <li><a href="#about" class="nav-link">About</a></li>
           <li><a href="#services" class="nav-link">Services</a></li>
-          <li><a href="#team" class="nav-link">Therapists &amp; Team</a></li>
+          <li><a href="#team" class="nav-link">Team</a></li>
           <li><a href="#resources" class="nav-link">Resources</a></li>
           <li><a href="#teletherapy" class="nav-link">Teletherapy</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
@@ -56,224 +46,166 @@
   </header>
 
   <main id="main-content">
-    <!-- Hero Section -->
-    <section class="section section-hero">
-      <div class="container hero-inner">
-        <div class="hero-text">
-          <p class="eyebrow">Holistic, evidence-based mental health care</p>
+    <!-- Hero -->
+    <section class="section section-hero" aria-label="Introductory section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Holistic • Evidence-Based • Compassionate</p>
           <h1>Compassionate care for anxiety, trauma, and adolescent mental health.</h1>
-          <p class="hero-subtitle">
-            Mind and Peace Connection Center provides comprehensive, evidence-based support for
-            individuals, adolescents, and families. We address anxiety, depression, trauma, and related
-            concerns through integrated psychiatric and counseling services, with careful attention to
-            safety, respect, and collaboration.
+          <p class="lead">
+            We provide comprehensive, individualized support for adults, teenagers, and families — integrating psychotherapy, psychiatric consultation, and practical supports to help you move forward.
           </p>
 
           <div class="hero-actions">
-            <a href="#contact" class="btn btn-primary">Schedule a consultation</a>
-            <a href="#contact" class="btn btn-secondary">Contact our team</a>
+            <a href="#contact" class="btn btn-primary large">Request a consultation</a>
+            <a href="#services" class="btn btn-ghost">Explore services</a>
           </div>
 
-          <p class="hero-footnote">
-            Serving adults, teenagers, and families through in-person and secure online appointments.
-          </p>
+          <ul class="hero-features" aria-hidden="true">
+            <li>In-person & secure online appointments</li>
+            <li>Trauma-informed, evidence-based approaches</li>
+            <li>Specialized adolescent & family support</li>
+          </ul>
         </div>
 
         <div class="hero-visual" aria-hidden="true">
-          <!-- Simple, abstract "therapy room" illustration using shapes -->
-          <div class="hero-card">
-            <div class="hero-room">
-              <div class="hero-window"></div>
-              <div class="hero-chair hero-chair-left"></div>
-              <div class="hero-chair hero-chair-right"></div>
-              <div class="hero-plant"></div>
+          <div class="visual-card">
+            <!-- Decorative, accessible-friendly illustration placeholder -->
+            <div class="illustration">
+              <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+                <rect x="0" y="0" width="400" height="260" rx="12" fill="url(#g)"></rect>
+                <defs>
+                  <linearGradient id="g" x1="0" x2="1">
+                    <stop offset="0" stop-color="#EAF6F4"/>
+                    <stop offset="1" stop-color="#F0F4FF"/>
+                  </linearGradient>
+                </defs>
+                <g transform="translate(20,30)" fill="#B3C9FF">
+                  <rect x="0" y="70" width="120" height="70" rx="10"/>
+                  <rect x="140" y="40" width="220" height="120" rx="10"/>
+                  <circle cx="70" cy="40" r="14" fill="#8CC6B3"/>
+                  <rect x="18" y="110" width="80" height="6" rx="3" fill="#DDEBFF"/>
+                </g>
+              </svg>
             </div>
-            <p class="hero-alt">A calm, softly lit therapy room illustration.</p>
+            <div class="visual-caption">A calm, welcoming space focused on collaboration and safety.</div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Triage / I’m looking for help with... -->
+    <!-- Quick triage -->
     <section class="section section-triage" aria-labelledby="triage-heading">
       <div class="container">
-        <h2 id="triage-heading">I’m looking for help with…</h2>
-        <p class="section-intro">
-          Choose the option that best matches your current concern.
-        </p>
+        <h2 id="triage-heading">I'm looking for help with…</h2>
+        <p class="section-intro">Select an area to learn more and find the right next step.</p>
 
         <div class="card-grid card-grid-3">
           <article class="card">
-            <h3>Anxiety, worry, or low mood</h3>
-            <p>
-              Persistent worry, restlessness, or low mood can interfere with daily life.
-              We provide structured, evidence-based care for anxiety and depression.
-            </p>
-            <a href="#" class="card-link">Explore Anxiety &amp; Depression Care</a>
-          </article>
-
-          <article class="card">
-            <h3>Effects of trauma or post-traumatic stress</h3>
-            <p>
-              If past experiences continue to affect how you feel or function, our
-              trauma-informed clinicians offer careful, structured support.
-            </p>
-            <a href="#" class="card-link">Explore Trauma &amp; PTSD Care</a>
-          </article>
-
-          <article class="card">
-            <h3>Support for teenagers and families</h3>
-            <p>
-              We work with adolescents and caregivers to address emotional, social,
-              and academic challenges in a collaborative way.
-            </p>
-            <a href="#" class="card-link">Explore Adolescent &amp; Family Support</a>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- Integrative Approach -->
-    <section class="section section-approach" id="about">
-      <div class="container approach-inner">
-        <div class="approach-text">
-          <h2>An integrative, evidence-based approach to care</h2>
-          <p>
-            At Mind and Peace Connection Center, we combine evidence-based therapies with thoughtful
-            attention to the whole person. We consider psychological, medical, and social factors, and,
-            when appropriate, integrate psychiatric medication with counseling and holistic supports.
-          </p>
-          <a href="#" class="text-link">Learn more about our holistic philosophy</a>
-        </div>
-
-        <div class="approach-pillars">
-          <article class="pillar">
-            <h3>Comprehensive assessment</h3>
-            <p>
-              We begin with a structured evaluation of your symptoms, history, and goals.
-            </p>
-          </article>
-          <article class="pillar">
-            <h3>Evidence-based therapies</h3>
-            <p>
-              We use established therapeutic approaches tailored to anxiety, depression,
-              trauma, and adolescent concerns.
-            </p>
-          </article>
-          <article class="pillar">
-            <h3>Thoughtful medication management</h3>
-            <p>
-              When indicated, we discuss psychiatric medications as one component of a
-              broader care plan.
-            </p>
-          </article>
-          <article class="pillar">
-            <h3>Holistic supports</h3>
-            <p>
-              We consider sleep, stress, routines, relationships, and other daily factors
-              that influence mental health.
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- Services Overview -->
-    <section class="section section-services" id="services">
-      <div class="container">
-        <h2>Services at Mind and Peace Connection Center</h2>
-        <p class="section-intro">
-          We support adults, adolescents, and families with a range of mental health concerns.
-          Each treatment plan is individualized to your needs and preferences.
-        </p>
-
-        <div class="card-grid card-grid-3 services-grid">
-          <article class="card">
             <h3>Anxiety &amp; Depression</h3>
-            <p>
-              Evaluation and treatment for ongoing worry, low mood, and related symptoms.
-            </p>
-            <a href="#" class="card-link">View Anxiety &amp; Depression Care</a>
+            <p>Structured, evidence-based care to help manage persistent worry or low mood.</p>
+            <a href="#services" class="card-link">Learn more</a>
           </article>
 
           <article class="card">
-            <h3>Trauma &amp; PTSD Care</h3>
-            <p>
-              Trauma-informed support for individuals living with the effects of difficult experiences.
-            </p>
-            <a href="#" class="card-link">View Trauma &amp; PTSD Care</a>
+            <h3>Trauma &amp; PTSD</h3>
+            <p>Trauma-informed treatment designed to increase safety and restore functioning.</p>
+            <a href="#services" class="card-link">Learn more</a>
           </article>
 
           <article class="card">
             <h3>Adolescent &amp; Family Support</h3>
-            <p>
-              Developmentally informed care for teenagers and collaborative support for families.
-            </p>
-            <a href="#" class="card-link">View Adolescent &amp; Family Support</a>
-          </article>
-
-          <article class="card">
-            <h3>Substance Use Support</h3>
-            <p>
-              Non-judgmental help for concerns about alcohol or drug use, whether or not addiction is present.
-            </p>
-            <a href="#" class="card-link">Learn more</a>
-          </article>
-
-          <article class="card">
-            <h3>Bipolar Spectrum Care</h3>
-            <p>
-              Structured support for mood stability, daily functioning, and long-term management.
-            </p>
-            <a href="#" class="card-link">Learn more</a>
-          </article>
-
-          <article class="card">
-            <h3>Couples Counseling</h3>
-            <p>
-              Neutral, structured space to address communication, conflict, and connection.
-            </p>
-            <a href="#" class="card-link">Learn more</a>
-          </article>
-
-          <article class="card">
-            <h3>Holistic Approaches to Mental Health</h3>
-            <p>
-              Integration of lifestyle, coping strategies, and well-being practices alongside clinical care.
-            </p>
-            <a href="#" class="card-link">Learn more</a>
+            <p>Developmentally-informed approaches to support teens and caregivers.</p>
+            <a href="#team" class="card-link">Learn more</a>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- Team Preview -->
+    <!-- Approach -->
+    <section class="section section-approach" id="about" aria-labelledby="about-heading">
+      <div class="container approach-inner">
+        <h2 id="about-heading">An integrative, evidence-based approach</h2>
+        <p class="section-intro">We combine validated therapies, careful assessment, and a focus on the whole person — including sleep, routines, and relationships.</p>
+
+        <div class="pillars">
+          <div class="pillar">
+            <h3>Comprehensive assessment</h3>
+            <p>Structured evaluations to guide safe, effective care.</p>
+          </div>
+          <div class="pillar">
+            <h3>Evidence-based therapies</h3>
+            <p>Tailored treatments grounded in current research.</p>
+          </div>
+          <div class="pillar">
+            <h3>Thoughtful medication management</h3>
+            <p>Medication when appropriate, discussed as part of a broader plan.</p>
+          </div>
+          <div class="pillar">
+            <h3>Holistic supports</h3>
+            <p>Practical strategies for sleep, stress, and daily routines.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services preview -->
+    <section class="section section-services" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <h2 id="services-heading">Services</h2>
+        <p class="section-intro">Individualized plans for adults, adolescents, and families.</p>
+
+        <div class="card-grid services-grid">
+          <article class="card">
+            <h3>Anxiety &amp; Depression</h3>
+            <p>Therapy and psychiatric evaluation focused on symptom relief and function.</p>
+            <a href="#" class="card-link">View details</a>
+          </article>
+
+          <article class="card">
+            <h3>Trauma &amp; PTSD</h3>
+            <p>Care focused on safety, stabilization, and evidence-based trauma treatments.</p>
+            <a href="#" class="card-link">View details</a>
+          </article>
+
+          <article class="card">
+            <h3>Adolescent &amp; Family Support</h3>
+            <p>Collaborative care with attention to developmental needs and family dynamics.</p>
+            <a href="#" class="card-link">View details</a>
+          </article>
+
+          <article class="card">
+            <h3>Medication Management</h3>
+            <p> Psychiatric consultation and careful monitoring when needed.</p>
+            <a href="#" class="card-link">View details</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
     <section class="section section-team" id="team">
       <div class="container">
-        <h2>Meet the Mind and Peace team</h2>
-        <p class="section-intro">
-          Our clinicians have specialized training in anxiety, trauma, adolescent mental health, and related
-          conditions. We prioritize respectful, collaborative care guided by current research.
-        </p>
+        <h2>Meet the team</h2>
+        <p class="section-intro">Our clinicians are trained in trauma-informed, evidence-based care.</p>
 
-        <div class="card-grid card-grid-3 team-grid">
-          <!-- Example team member cards; replace with real data -->
+        <div class="card-grid team-grid">
           <article class="card card-team">
-            <div class="avatar avatar-md" aria-hidden="true">AR</div>
+            <div class="avatar" aria-hidden="true">AR</div>
             <h3>Alex Rivera, MD</h3>
             <p class="team-role">Psychiatrist</p>
             <p class="team-tags">Anxiety • Mood Disorders • Trauma</p>
           </article>
 
           <article class="card card-team">
-            <div class="avatar avatar-md" aria-hidden="true">JL</div>
+            <div class="avatar" aria-hidden="true">JL</div>
             <h3>Jordan Lee, LCSW</h3>
             <p class="team-role">Licensed Clinical Social Worker</p>
             <p class="team-tags">Adolescents • Families • Trauma</p>
           </article>
 
           <article class="card card-team">
-            <div class="avatar avatar-md" aria-hidden="true">SM</div>
+            <div class="avatar" aria-hidden="true">SM</div>
             <h3>Sam Morgan, PhD</h3>
             <p class="team-role">Clinical Psychologist</p>
             <p class="team-tags">Anxiety • PTSD • Holistic Care</p>
@@ -286,99 +218,79 @@
       </div>
     </section>
 
-    <!-- Teletherapy Section -->
+    <!-- Teletherapy -->
     <section class="section section-teletherapy" id="teletherapy">
       <div class="container teletherapy-inner">
         <div class="tele-text">
           <h2>Care in person or online</h2>
-          <p>
-            We provide both in-person and secure online appointments when appropriate.
-            Teletherapy can expand access to care while maintaining the same standard
-            of professionalism and respect.
-          </p>
+          <p>Secure video sessions available with the same clinicians you would see in-person.</p>
 
           <div class="tele-columns">
             <div>
               <h3>Teletherapy basics</h3>
               <ul>
-                <li>Secure video sessions with the same clinicians you would see in person.</li>
-                <li>Flexible scheduling options when feasible.</li>
-                <li>Guidance on how to prepare your space for privacy and minimal distraction.</li>
+                <li>Secure, HIPAA-aware platforms</li>
+                <li>Flexible scheduling</li>
+                <li>Guidance for privacy and preparation</li>
               </ul>
             </div>
             <div>
               <h3>How it works</h3>
               <ul>
-                <li>Discuss whether teletherapy is appropriate during your consultation.</li>
-                <li>Receive instructions for accessing the secure platform and completing forms.</li>
-                <li>Log in to your session at the scheduled time.</li>
+                <li>Discuss options during your initial consult</li>
+                <li>Receive onboarding instructions and forms</li>
+                <li>Join your scheduled session via a secure link</li>
               </ul>
             </div>
           </div>
 
           <div class="hero-actions">
-            <a href="#" class="btn btn-secondary">Learn more about teletherapy</a>
+            <a href="#contact" class="btn btn-secondary">Learn more</a>
             <a href="#" class="btn btn-ghost">Client Portal</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Resources Preview -->
+    <!-- Resources -->
     <section class="section section-resources" id="resources">
       <div class="container">
-        <h2>Resources for understanding and support</h2>
-        <p class="section-intro">
-          Our articles offer general information about mental health and are not a substitute for
-          individualized assessment or treatment.
-        </p>
+        <h2>Resources</h2>
+        <p class="section-intro">Educational articles to support understanding and self-care.</p>
 
-        <div class="card-grid card-grid-3 resources-grid">
+        <div class="card-grid resources-grid">
           <article class="card">
-            <h3>Understanding the difference between stress and anxiety</h3>
-            <p>
-              Learn how to distinguish everyday stress from symptoms that may benefit from clinical support.
-            </p>
+            <h3>Stress vs. Anxiety</h3>
+            <p>How to tell the difference and when to seek support.</p>
             <p class="resource-tag">Anxiety</p>
-            <a href="#" class="card-link">Read article</a>
+            <a href="#" class="card-link">Read</a>
           </article>
 
           <article class="card">
-            <h3>Supporting a teenager who seems withdrawn</h3>
-            <p>
-              Practical considerations for caregivers when they notice changes in a teen’s engagement or mood.
-            </p>
+            <h3>Supporting a withdrawn teen</h3>
+            <p>Practical advice for caregivers noticing changes in their teen.</p>
             <p class="resource-tag">Adolescents</p>
-            <a href="#" class="card-link">Read article</a>
+            <a href="#" class="card-link">Read</a>
           </article>
 
           <article class="card">
-            <h3>Grounding strategies after difficult experiences</h3>
-            <p>
-              Gentle, non-specific grounding ideas that may support day-to-day stability after trauma.
-            </p>
-            <p class="resource-tag">Trauma &amp; PTSD</p>
-            <a href="#" class="card-link">Read article</a>
+            <h3>Grounding strategies</h3>
+            <p>Gentle approaches to increase day-to-day stability after difficult experiences.</p>
+            <p class="resource-tag">Trauma</p>
+            <a href="#" class="card-link">Read</a>
           </article>
         </div>
 
-        <p class="resources-disclaimer">
-          Content in the Resources section is for educational purposes only and is not a substitute
-          for professional care.
-        </p>
+        <p class="resources-disclaimer">Content is educational and not a substitute for individualized care.</p>
       </div>
     </section>
 
-    <!-- Contact / CTA -->
-    <section class="section section-contact" id="contact">
+    <!-- Contact -->
+    <section class="section section-contact" id="contact" aria-labelledby="contact-heading">
       <div class="container contact-inner">
         <div class="contact-text">
-          <h2>Take a step toward support</h2>
-          <p>
-            If you are considering care for yourself, your teenager, or your family, we invite you to contact
-            Mind and Peace Connection Center. Our team will review your information and follow up to discuss
-            options, answer questions, and explore whether our services are a good fit.
-          </p>
+          <h2 id="contact-heading">Take a step toward support</h2>
+          <p>If you'd like to explore care for yourself or your family, send us a brief request and we'll follow up to discuss next steps.</p>
 
           <ul class="contact-details">
             <li><strong>Phone:</strong> <a href="tel:0000000000">(000) 000-0000</a></li>
@@ -387,111 +299,107 @@
           </ul>
         </div>
 
-        <form class="contact-form" aria-label="Request a consultation or contact our team">
-          <div class="form-row">
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" autocomplete="name" required />
+        <form class="contact-form" aria-label="Request a consultation" onsubmit="event.preventDefault(); alert('Thanks — your request has been submitted (demo).');">
+          <div class="form-grid">
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+            </div>
+
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+
+            <div class="form-row">
+              <label for="phone">Phone (optional)</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" />
+            </div>
+
+            <div class="form-row">
+              <label for="reason">Reason for contact</label>
+              <select id="reason" name="reason">
+                <option value="">Select an option</option>
+                <option value="anxiety-depression">Anxiety or depression</option>
+                <option value="trauma-ptsd">Trauma or PTSD</option>
+                <option value="adolescent-family">Adolescent and family</option>
+                <option value="other">Other / not sure</option>
+              </select>
+            </div>
+
+            <div class="form-row form-row-full">
+              <label for="message">Brief message</label>
+              <textarea id="message" name="message" rows="4"></textarea>
+            </div>
           </div>
 
-          <div class="form-row">
-            <label for="email">Email</label>
-            <input id="email" name="email" type="email" autocomplete="email" required />
-          </div>
+          <button type="submit" class="btn btn-primary btn-full-width">Submit request</button>
 
-          <div class="form-row">
-            <label for="phone">Phone (optional)</label>
-            <input id="phone" name="phone" type="tel" autocomplete="tel" />
-          </div>
-
-          <div class="form-row">
-            <label for="reason">Reason for contact (please do not include detailed clinical information)</label>
-            <select id="reason" name="reason">
-              <option value="">Select an option</option>
-              <option value="anxiety-depression">Anxiety or depression support</option>
-              <option value="trauma-ptsd">Trauma or PTSD support</option>
-              <option value="adolescent-family">Adolescent and family support</option>
-              <option value="other">Other / not sure</option>
-            </select>
-          </div>
-
-          <div class="form-row">
-            <label for="message">Brief message</label>
-            <textarea id="message" name="message" rows="4"></textarea>
-          </div>
-
-          <button type="submit" class="btn btn-primary btn-full-width">
-            Submit
-          </button>
-
-          <p class="form-note">
-            Please do not include urgent concerns or detailed private information in this form.
-          </p>
+          <p class="form-note">Please do not include urgent or highly sensitive clinical information in this form.</p>
         </form>
       </div>
 
       <div class="container crisis-note">
-        <p>
-          <strong>Important:</strong> Mind and Peace Connection Center is not an emergency or crisis service.
-          If you are in immediate distress or concerned about your safety or someone else’s safety, please
-          contact your local emergency number or a crisis hotline in your area.
-        </p>
+        <p><strong>Important:</strong> This is not an emergency service. If you are in immediate danger or a crisis, call your local emergency number or a crisis hotline.</p>
       </div>
     </section>
   </main>
 
-  <!-- Footer -->
-  <footer class="site-footer">
+  <footer class="site-footer" role="contentinfo">
     <div class="container footer-inner">
       <div class="footer-col">
-        <p class="footer-title">Mind and Peace Connection Center</p>
-        <p class="footer-text">
-          Holistic, evidence-based mental health care for adults, adolescents, and families.
-        </p>
+        <p class="footer-title">Mind &amp; Peace Connection Center</p>
+        <p class="footer-text">Integrative, evidence-based mental health care for adults, adolescents, and families.</p>
       </div>
 
       <div class="footer-col">
         <p class="footer-subtitle">Quick links</p>
         <ul class="footer-links">
           <li><a href="#services">Services</a></li>
-          <li><a href="#team">Therapists &amp; Team</a></li>
-          <li><a href="#teletherapy">Teletherapy &amp; Client Portal</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#teletherapy">Teletherapy</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
 
       <div class="footer-col">
-        <p class="footer-subtitle">Information</p>
+        <p class="footer-subtitle">Legal</p>
         <ul class="footer-links">
           <li><a href="#">Privacy Policy</a></li>
           <li><a href="#">Terms of Use</a></li>
-          <li><a href="#">Notice of Privacy Practices</a></li>
         </ul>
       </div>
     </div>
 
     <div class="container footer-bottom">
-      <p>&copy; <span id="year"></span> Mind and Peace Connection Center. All rights reserved.</p>
+      <p>&copy; <span id="year"></span> Mind &amp; Peace Connection Center. All rights reserved.</p>
     </div>
   </footer>
 
   <script>
-    // Simple mobile nav toggle and dynamic year
-    const navToggle = document.querySelector('.nav-toggle');
-    const navList = document.querySelector('.nav-list');
-    const yearEl = document.getElementById('year');
+    // Header year and mobile nav behavior
+    (function () {
+      const yearEl = document.getElementById('year');
+      if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-    if (yearEl) {
-      yearEl.textContent = new Date().getFullYear();
-    }
+      const navToggle = document.querySelector('.nav-toggle');
+      const navList = document.getElementById('primary-menu');
+      if (navToggle && navList) {
+        navToggle.addEventListener('click', () => {
+          const isOpen = navToggle.getAttribute('aria-expanded') === 'true';
+          navToggle.setAttribute('aria-expanded', String(!isOpen));
+          navList.classList.toggle('open', !isOpen);
+        });
 
-    if (navToggle && navList) {
-      navToggle.addEventListener('click', () => {
-        const isOpen = navToggle.getAttribute('aria-expanded') === 'true';
-        navToggle.setAttribute('aria-expanded', String(!isOpen));
-        navList.classList.toggle('nav-list-open', !isOpen);
-      });
-    }
+        // Close mobile nav when a link is clicked
+        navList.addEventListener('click', (e) => {
+          if (e.target.matches('a')) {
+            navToggle.setAttribute('aria-expanded', 'false');
+            navList.classList.remove('open');
+          }
+        });
+      }
+    })();
   </script>
 </body>
 </html>
-
